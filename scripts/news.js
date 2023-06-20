@@ -59,7 +59,7 @@ function displayNewList(data) {
   checkBtnPrev();
   // tao cac html cua cac News de hien thi
   let html = "";
-  data.articles.forEach(function (article) {
+  data.articles.forEach((article) => {
     html += `<div class="card flex-row flex-wrap">
     <div class="card mb-3" style="">
       <div class="row no-gutters">
